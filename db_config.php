@@ -1,5 +1,4 @@
 <?php
-// Gamitin ang environment variables para sa Aiven connection
 $conn = mysqli_connect(
     getenv('DB_HOST'),
     getenv('DB_USER'),
